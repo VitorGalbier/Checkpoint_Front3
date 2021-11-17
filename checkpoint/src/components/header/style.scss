@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    justify-content: flex-end; /*pega todo o conteúdo e justifica*/
+
+    ul{
+        display: flex;
+        li{
+            margin: 2rem;
+        }
+    }
+
+    a{
+        color: var(--lightgray);
+        text-decoration: none;
+        font-size: 2rem;
+        &:hover{
+            color: var(--white);
+        }
+    }
+    
+}
