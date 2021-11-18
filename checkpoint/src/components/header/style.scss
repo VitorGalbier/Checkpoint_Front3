@@ -1,6 +1,9 @@
 header{
-    display: flex;
-    justify-content: flex-end; /*pega todo o conteúdo e justifica*/
+
+    justify-content: space-between; /*pega todo o conteúdo e justifica*/
+    width: 100%;
+    background-color: var(--black);
+    height: 10vh;
 
     ul{
         display: flex;
@@ -9,13 +12,16 @@ header{
         }
     }
 
-    a{
-        color: var(--lightgray);
-        text-decoration: none;
-        font-size: 2rem;
-        &:hover{
-            color: var(--white);
-        }
-    }
     
+}
+
+
+a{
+    color: var(--lightgray) !important;
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    &:hover{
+        color: var(--gray) !important;
+    }
 }
