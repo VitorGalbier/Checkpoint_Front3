@@ -61,7 +61,7 @@ export default function Cards() {
                             <React.Fragment key={id}>
                                 <div className="col-4">
                                     <div>
-                                        <img src={image} alt="dsahu" />
+                                        <img src={image} alt={id} />
                                     </div>
                                     <div>
                                         <p> {text} </p>
