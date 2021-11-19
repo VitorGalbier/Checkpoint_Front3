@@ -11,7 +11,7 @@ export default function Header() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <a className="nav-item nav-link active" href="#">Home <span className="sr-only"></span></a>
+                        <a className="nav-item nav-link active" href="index.html">Home <span className="sr-only"></span></a>
                         <a className="nav-item nav-link" href="#aboutMe">About Me</a>
                         <a className="nav-item nav-link" href="#cards">Skills</a>
                         <a className="nav-item nav-link" href="#contactMe">Contact Me</a>
